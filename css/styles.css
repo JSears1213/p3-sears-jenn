@@ -4,13 +4,12 @@
   padding: 0;
   border: 0;
   box-sizing: 0;
-
-
 }
+
 .top-rip {
   position: fixed;
-
 }
+
 .bottom-rip {
   position: fixed;
   left: 0;
@@ -18,15 +17,6 @@
   width: 100%;
   text-align: center;
 }
-
-body {
-  background-image: url('../images/concrete-wall.png');
-
-}
-
-style {
-    opacity: 0.5;
-  }
 
 /* Logo/ Nav css */
 header {
@@ -64,6 +54,8 @@ nav ul li:hover {
 }
 
 /* Body styling */
+
+
 h1 {
   font-family: zooja-pro,sans-serif;
   font-weight: 400;
@@ -89,9 +81,6 @@ p::first-letter{
   font-variant: small-caps;
   font-size: 30px;
 }
-
-
-
 
 
 .top-rip {
@@ -155,6 +144,7 @@ body {
   text-align: center;
 
 }
+
 .contact-form {
   background-color: #EBE1D6;
   padding:20px;
