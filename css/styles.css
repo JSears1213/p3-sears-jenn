@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+  z-index: -1;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav img,
+nav ul {
+  vertical-align: middle;
+  text-align: center;
+  margin:0 auto;
+  margin-left: 120px;
+  padding: 50px 0px 0px 0px;
+}
+
+
+nav a {
+  text-decoration: none;
+  color:#F37A21;
+  position: relative;
+  font-family: brother-1816-printed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-right: 100px;
+
+}
+nav ul li:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
+/* Body styling */
+h1 {
+  font-family: zooja-pro,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #F37A21;
+  font-size: 50px;
+
+}
+
+h1::first-letter{
+  color: #88353F;
+}
+p {
+  font-family: mortise, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #88353F;
+}
+
+
+p::first-letter{
+  color: #F37A21;
+  font-variant: small-caps;
+  font-size: 30px;
+}
+
+
+
+
+
+.top-rip {
+  position: absolute;
+}
+
+.bottom-rip {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+
+}
+
+
+#bg{
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+#bg img {
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  opacity: 50%;
+}
+
+body {
+  background-image: url('../images/concrete-wall.png');
+  background-repeat: no-repeat;
+}
+
+/* logo styling */
+.logo {
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  margin: 0;
+}
+.logo:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
+/* contact form styling */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.contact-form {
+  background-color: #EBE1D6;
+  padding:20px;
+  max-width: 500px;
+  border-radius: 20px;
+  color: white;
+  font-family: mortise, serif;
+  font-size: 30px;
+  margin: 20px auto;
+  text-align: left;
+}
+.reset input,
+.submit input {
+  background: #F37A21;
+  color: white;
+  padding: 5px 20px;
+  display: inline;
+
+}
+.reset,
+.submit {
+  display:inline;
+}
+.input-section {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+textarea {
+  font-family: sans-serif;
+  padding: 10px 10px;
+}
+select {
+  width: 185px;
+  padding: 8px 0;
+  border-radius: 4px;
+}
