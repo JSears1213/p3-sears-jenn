@@ -95,12 +95,15 @@ nav ul li:hover {
   margin-top: 120px;
   padding:25px;
 }
+
+/* about page styling */
 .about h1{
   font-family: zooja-pro,sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #F37A21;
   font-size: 50px;
+  text-align: center;
 
 }
 .about h2{
@@ -112,8 +115,32 @@ nav ul li:hover {
   font-weight: 400;
   font-style: normal;
   color: #88353F;
+  text-align: center;
 }
 
+.about ul{
+  list-style-type: none;
+  color:#F37A21;
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: none;
+  margin-left: 700px;
+  margin-top: 70px;
+}
+
+.happyearth{
+  position: absolute;
+  left: 100px;
+  border: none;
+
+}
+
+/* styling art page */
+section.gallery img{
+  width:295px;
+
+}
 
 .top-rip {
   position: absolute;
