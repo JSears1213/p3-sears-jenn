@@ -48,6 +48,15 @@ nav a {
   margin-right: 100px;
 
 }
+
+nav a:hover{
+  color: #88353F;
+}
+
+nav a:vistied{
+  color:#E9D4BF;
+}
+
 nav ul li:hover {
   transition: all .2s ease-in-out;
   transform: scale(1.1);
@@ -89,12 +98,14 @@ nav ul li:hover {
   font-weight: 100;
   font-style: normal;
   color: #E9D4BF;
-  font-size: 40px;
+  font-size: 65px;
   text-align: center;
+  padding-top: 15px;
 
 }
 .home p{
-  font-size: 18px;
+  font-size: 20px;
+  color: #F37A21;
 
 }
 .homephoto{
@@ -102,8 +113,9 @@ nav ul li:hover {
   margin:0 auto;
   margin-left: 120px;
   margin-right: 120px;
-  margin-top: 25px;
   padding:0px;
+  margin-bottom: 40px;
+
 }
 
 /* about page styling */
@@ -135,17 +147,27 @@ nav ul li:hover {
   width: 400px;
   height: 200px;
   border: none;
-  margin-left: 700px;
-  margin-top: 70px;
+  margin-left: 600px;
+  margin-top: 65px;
+  clear: left;
+  text-align: left;
 }
 
 .happyearth{
   position: absolute;
-  left: 100px;
+  left: 200px;
   border: none;
+  clear: right;
+  margin-top: 120px;
 
 }
 
+.aboutphoto{
+  text-align: center;
+  margin: auto;
+
+
+}
 /* styling art page */
 section.gallery img{
   width:200;
@@ -206,10 +228,6 @@ section.gallery img{
 /* logo styling */
 .logo {
   text-align: center;
-  left: 0;
-  bottom: 0;
-  bottom: 0;
-  top: 0;
   width: 100%;
   margin: 0;
 }
@@ -272,12 +290,22 @@ select {
   vertical-align: middle;
   float: left;
   margin-left: 50px;
-  position: bottom;
+  position: relative;
   margin-bottom: auto;
+  z-index: -2;
+
 }
-.infofooter p{
+.left type p{
   color: #88353F;
+  font-size: 10px;
+  position: relative;
 }
-.type{
+.right type{
   float: right;
+  font-size: 10px;
+  position: relative;
+}
+.star{
+  max-width: 2px;
+  position: relative;
 }
