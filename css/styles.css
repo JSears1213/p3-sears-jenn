@@ -23,7 +23,8 @@
 /* Logo/ Nav css */
 header {
   position: relative;
-  z-index: -1;
+
+
 }
 
 nav ul li {
@@ -49,6 +50,7 @@ nav ul {
   font-style: normal;
   margin-right: 100px;
   margin-top: 50px;
+
 
 }
 
@@ -87,7 +89,7 @@ nav ul {
   font-style: normal;
   color: #88353F;
 }
-
+.infofooter p{}
 
 .contact p::first-letter{
   color: #F37A21;
@@ -354,4 +356,18 @@ select {
 }
 .left p::first-letter {
   color: #F37A21;
+}
+
+footer.infofooter {
+    position: fixed;
+    bottom: 0;
+    z-index: 9;
+    left: 0;
+    right: 0;
+}
+footer.infofooter div {
+   bottom: 0;
+    z-index: 9;
+    margin: 0 25px;
+    display: inline-block;
 }
