@@ -16,6 +16,8 @@
   bottom: 0;
   width: 100%;
   text-align: center;
+  position: relative;
+  /* z-index: -2; */
 }
 
 /* Logo/ Nav css */
@@ -162,6 +164,26 @@ nav ul li:hover {
 
 }
 
+.happyearth img:hover{
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+
+}
+
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
 .aboutphoto{
   text-align: center;
   margin: auto;
@@ -185,6 +207,10 @@ section.gallery img{
   text-align: center;
 
 
+}
+
+.gallery h2{
+  text-shadow: 5px 10px #F5F5F5;
 }
 .top-rip {
   position: absolute;
@@ -243,6 +269,9 @@ section.gallery img{
   text-align: center;
 
 }
+.container p{
+  font-size: 20px;
+}
 /*  contact form styling */
 .contact-form {
   background-color: #EBE1D6;
@@ -254,6 +283,7 @@ section.gallery img{
   font-size: 30px;
   margin: 20px auto;
   text-align: left;
+  box-shadow: 5px 10px #F5F5F5;
 }
 .reset input,
 .submit input {
@@ -288,24 +318,28 @@ select {
 .infofooter {
   text-align: center;
   vertical-align: middle;
-  float: left;
-  margin-left: 50px;
-  position: relative;
   margin-bottom: auto;
-  z-index: -2;
 
 }
-.left type p{
+.left p{
   color: #88353F;
-  font-size: 10px;
+  font-size: 25px;
   position: relative;
+  clear: right;
 }
-.right type{
-  float: right;
-  font-size: 10px;
-  position: relative;
+
+.infofooter img{
+  max-width: 25px;
+  text-align: center;
+  clear: right;
+  padding-top: 15px;
 }
-.star{
-  max-width: 2px;
+.right p{
+  font-size: 25px;
   position: relative;
+  color:#F37A21;
+  clear: left;
+}
+.left p::first-letter {
+  color: #F37A21;
 }
