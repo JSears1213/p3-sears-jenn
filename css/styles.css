@@ -57,9 +57,7 @@ nav ul {
   color: #88353F;
 }
 
-.nav a:visited{
-  color:#E9D4BF;
-}
+
 
 .nav ul li:hover {
   transition: all .2s ease-in-out;
