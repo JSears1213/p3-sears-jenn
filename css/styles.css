@@ -26,21 +26,21 @@ header {
   z-index: -1;
 }
 
-nav ul li {
+.nav ul li {
   display: inline;
 }
 
-nav img,
+/* nav img,
 nav ul {
   vertical-align: middle;
   text-align: center;
   margin:0 auto;
   margin-left: 120px;
   padding: 50px 0px 0px 0px;
-}
+} */
 
 
-nav a {
+.nav a {
   text-decoration: none;
   color:#F37A21;
   position: relative;
@@ -48,18 +48,19 @@ nav a {
   font-weight: 400;
   font-style: normal;
   margin-right: 100px;
+  margin-top: 50px;
 
 }
 
-nav a:hover{
+.nav a:hover{
   color: #88353F;
 }
 
-nav a:vistied{
+.nav a:vistied{
   color:#E9D4BF;
 }
 
-nav ul li:hover {
+.nav ul li:hover {
   transition: all .2s ease-in-out;
   transform: scale(1.1);
 }
@@ -114,7 +115,8 @@ nav ul li:hover {
   text-align: center;
   margin:0 auto;
   padding:0px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
   margin-left: 175px;
   display: block;
   display:inline;
