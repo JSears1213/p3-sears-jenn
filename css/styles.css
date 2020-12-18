@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   border: 0;
-  box-sizing: 0;
 }
 
 .top-rip {
@@ -58,7 +57,7 @@ nav ul {
   color: #88353F;
 }
 
-.nav a:vistied{
+.nav a:visited{
   color:#E9D4BF;
 }
 
@@ -206,7 +205,7 @@ nav ul {
 }
 /* styling art page */
 section.gallery img{
-  width:200;
+  width:200px;
 
 
 }
